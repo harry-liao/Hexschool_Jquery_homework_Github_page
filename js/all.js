@@ -54,7 +54,7 @@ $(document).ready(function () {
 });
 
 function showBtnCondition() {
-  if ($(this).scrollTop() > 100) {
+  if ($(this).scrollTop() > 20) {
     $('.top').fadeIn();
       } else {
        $('.top').fadeOut();
