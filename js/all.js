@@ -52,3 +52,12 @@ $(document).ready(function () {
     }, 700);
   });
 });
+
+function showBtnCondition() {
+  if ($(this).scrollTop() > 1200) {
+    $('.top').fadeIn();
+      } else {
+       $('.top').fadeOut();
+     }
+   }
+$(window).scroll(showBtnCondition);

@@ -196,11 +196,8 @@ table {
     
 }
 
-.content {
-    margin-top: 60px;
-}
-
 .course {
+    margin-top: 60px;
     display: flex;
     justify-content: space-around;
 }
@@ -313,7 +310,7 @@ table {
     border: none;
 }
 
-.contact h3 {
+.contact label {
     color: #ffffff;
     font-size: 15px;
 }
@@ -374,4 +371,5 @@ footer {
     bottom: 0;
     right: 0;
     font-size: 100px;
+    display: none;
 }
